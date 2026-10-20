@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5px);
+    gap: 10px;
+}
