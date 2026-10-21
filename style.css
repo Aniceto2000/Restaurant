@@ -2,9 +2,26 @@
     margin: 0px;
     box-sizing: border-box;
 }
+header{
+    position: relative;
+}
 .header{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(5px);
-    gap: 10px;
+    gap: 150px;
+    opacity: var(--header-opacity);
+    transition: 1s;
+    position: absolute;
+    left: 0;
+}
+
+.menu-hamburguer{
+    
+    background-image: url(hamburger.png);
+    background-size: 100%;
+    
+}
+:root{
+    --header-opacity:0;
+    --menu-opacity: "url(hamburger.png)";
 }
